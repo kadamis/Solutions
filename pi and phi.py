@@ -18,7 +18,7 @@ n = int(input("Give number: "))
 
 assert n>=0, "Wrong. Must be natural number!"
 
-def factorial(x):
+def factorial(n):
     
     factorial = 1
     
@@ -28,7 +28,7 @@ def factorial(x):
 
     return factorial
 
-res = factorial(x)
+res = factorial(n)
 print("Factorial of number:",res)
 
 φ = 13/8
