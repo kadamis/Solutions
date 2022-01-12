@@ -1,2 +1,2 @@
-# pi_and_phi
+# Solutions
 Calculations.
