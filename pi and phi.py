@@ -8,7 +8,7 @@ for i in range(100):
 
 print("pi =",pi)
 
-r = random.randint(0,255)
+r = random.randint(0,10)
 
 print("L =",2*pi*r,"m")
 print("E =",pi*r**2,"m2")
@@ -18,7 +18,7 @@ n = int(input("Give number: "))
 
 assert n>=0, "Wrong. Must be natural number!"
 
-def factorial(n):
+def factorial(x):
     
     factorial = 1
     
@@ -28,7 +28,7 @@ def factorial(n):
 
     return factorial
 
-res = factorial(n)
+res = factorial(x)
 print("Factorial of number:",res)
 
 φ = 13/8
@@ -38,3 +38,13 @@ for i in range(100):
     φ = φ + ((-1)**(i+1)*factorial(2*i+1))/(4**(2*i+3)*factorial(i)*factorial(i+2))
 
 print("golden ratio =",φ)
+
+def fib(n):
+
+    for i in range(n):
+
+        Fn = (φ**n-(-φ)**(-n))/(2*φ-1)
+        
+    return(Fn)
+
+print(fib(n))
