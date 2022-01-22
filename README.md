@@ -1,2 +1,2 @@
 # Solutions
-Calculations.
+Calculations of pi and phi.
